@@ -26,7 +26,17 @@ public class CollectionEx {
 		System.out.println("=========== set ==============");
 		ex.set.forEach(System.out::println);
 		
-		System.out.println("=========== list ==============");
+		System.out.println("=="
+				+ ""
+				+ ""
+				+ ""
+				+ ""
+				+ ""
+				+ ""
+				+ ""
+				+ ""
+				+ ""
+				+ "========= list ==============");
 		ex.list.forEach(System.out::println);
 		
 		System.out.println("=========== map ==============");
