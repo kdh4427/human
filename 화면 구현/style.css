@@ -1,0 +1,264 @@
+
+/* index.html */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+/* 웹 크기 */
+#webView { 
+  overflow: visible;
+    width: 978px;
+    height: auto;
+    margin: 0 auto;
+    transform: translate3d(0,0,0);
+  }
+/* 헤더 */
+header { text-align: right; 
+padding: 50px 320px 5px; background-size: auto;} 
+header p {text-align: right; width: 400px; font-family:Nanum Brush Script; font-size: 30px;}
+.head img { position: absolute;
+            top: 70px;
+            left: 30px;
+            width: 214px;
+            height: 50px;}
+ /* 공지사항 자유게시판 갤러리 */
+nav{background: #FFCD00; }
+nav::after {content: ""; clear: both; display: block;}
+nav a:hover, nav a:focus {background-color: #222; color: #fff; }
+nav ul {margin: 0; list-style: none;}
+nav ul li {float:left; margin: 20px 25px 20px 40px;}
+nav a {text-decoration: none; color: black;}
+
+/* 메인 */
+main {width: 960px; margin: 0 auto;}
+.imgbox {width: 632.013px; height: 200px; }
+.bg1{background: url(image/dog-4494554_640.jpg); 
+     margin: 40px 0px 10px 100px; 
+     background-size:  100% 100%;
+     position: absolute;}
+.text {margin-bottom: 40px; margin-left: 100px;  }
+.text p {font-family: Nanum Pen Script;
+          font-size: 25px;}
+.text h2 { font-size: 16px;
+           font-weight: bold;
+           margin-top: 220px;}
+.center {margin-left: 100px;}
+.information1 h3{font-size: 16px; position: absolute; top: 635px;
+  left: 230px;
+  width: 200px;
+  height: 200px; }
+.information1 p {font-size: 12px; font-weight: bold; position: absolute; top: 685px;
+  left: 230px;
+  width: 170px;
+  height: 200px; }
+.information2 h3{font-size: 16px; position: absolute; top: 635px;
+  left: 560px;
+  width: 200px;
+  height: 200px; }
+.information2 p {font-size: 12px; font-weight: bold; position: absolute; top: 685px;
+  left: 560px;
+  width: 170px;
+  height: 200px;}
+.information3 h3{font-size: 16px; position: absolute; top: 760px;
+  left: 230px;
+  width: 200px;
+  height: 200px; }
+.information3 p {font-size: 12px; font-weight: bold; position: absolute; top: 810px;
+  left: 230px;
+  width: 170px;
+  height: 200px; }
+.information4 h3{font-size: 16px; position: absolute; top: 760px;
+  left: 560px;
+  width: 200px;
+  height: 200px; }
+.information4 p {font-size: 12px; font-weight: bold; position: absolute; top: 810px;
+  left: 560px;
+  width: 170px;
+  height: 200px; }             
+.information1 .info1
+        {width: 100px; height: 100px;
+        float: left; background-size: 100% 100%;
+        margin-left: 100px;
+        margin-right: 120px;
+        padding: 5px;
+        border-radius: 4px 4px 4px 4px;
+      }
+.information2 .info2
+        {width: 100px; height: 100px;
+          float: left; background-size: 100% 100%;
+          margin-left: 100px;
+          margin-right: 120px;
+          padding: 5px;
+          border-radius: 4px 4px 4px 4px;
+        }
+.information3 .info3
+        {width: 100px; height: 100px;
+          float: left; background-size: 100% 100%;
+          margin-left: 100px;
+          margin-right: 120px;
+          margin-top: 15px;
+          padding: 5px;
+          border-radius: 4px 4px 4px 4px;
+        }
+.information4 .info4
+        {width: 100px; height: 100px;
+          float: left; background-size: 100% 100%;
+          margin-left: 100px;
+          margin-right: 120px;
+          margin-top: 15px;
+          padding: 5px;
+          border-radius: 4px 4px 4px 4px;
+        }                
+.info1 {background: url(image/pets-3715733_1920.jpg); }
+.info2 {background: url(image/white-4557097_1920.jpg); }
+.info3 {background: url(image/dog-691641_1920.jpg); }
+.info4 {background: url(image/cat-4520516_1920.jpg); }
+.info1:hover {transform: scale(1.05);}
+.info2:hover {transform: scale(1.05);}
+.info3:hover {transform: scale(1.05);}
+.info4:hover {transform: scale(1.05);}
+
+
+.information5 {margin-bottom: 20px; height: auto; font-size: 16px; font-weight: bold;}
+.information5 p {text-align: center; margin-right: 100px;}             
+.information5 img {top: 0px;
+                  left: 1.98746px;
+                  width: 632.013px;
+                  height: 200px;
+                  margin: 40px 100px 10px 100px;}
+.information5 img:hover{transform: scale(1.05);}
+/* 사이드 */
+aside{width: 110px; padding: 10px; margin: 10px; float: right; color: black;}
+aside a {color: black; text-decoration: none; width: 106px; height: 20px;}
+.box1{width: 141px; height: 56px;
+      margin-top: 80px;
+      border-radius: 4px 4px 4px 4px;
+      font-size: 16px;
+      color: black;
+      text-align: center;
+      line-height: 3.5em;
+      background-color: #FFCD00;
+}
+
+/* 풋터 */
+footer {background: #161619; text-align: right; 
+padding: 20px 320px 30px; background-size: cover;}
+footer p, a{text-align: center; color: white;
+position: static;}
+
+/* signin.html */
+.sigMain {position: relative; left: 30px; bottom: 70px;}
+ul {list-style: none; margin-top: 90px;}
+h4 {margin-left: 250px; position: relative; top: 60px;}
+.ID {position: relative; top: 120px;}
+.inputId {position:  relative; top: 60px;}
+ul input {padding: 6px 12px ; width: 354px; height: 24px; margin-left: 210px; }
+#login{width: 380px; height: 40px; margin-top: 10px; margin-bottom: 80px; margin-left: 250px; border-radius: 4px; background-color: #FFCD00;}
+ul a {text-decoration: none; color: black;}
+
+/* contract */
+.terms{width: 570px; height: 237px;
+  border: 1px solid black; 
+  overflow: auto;
+  margin-left: 190px;
+  margin-top: 50px;}
+label{float: right;  margin-top: 5px; margin-right: 200px; padding: 10px;}
+.next {width: 141px; height: 56px;
+  margin-top: 80px;
+  border-radius: 4px 4px 4px 4px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  background-color: #FFCD00;
+  float: right;}
+
+  /* signup */
+  .upMain{position: relative; left: 40px; bottom: 40px;}
+  #signup{background-color: #FFCD00;
+    position: relative;
+    bottom: 120px;
+    color: black;
+    width: 380px; 
+    height: 40px;  
+    margin-left: 250px;
+    border-radius: 4px;}
+  .sigPW  {position: relative; bottom: 50px;}  
+  .sigPW2 {position: relative; bottom: 90px;}
+  .sigName {position: relative; bottom: 130px;}    
+    /* notice, free */
+  table {
+      position: absolute;
+      top: 250px;
+      left: 155px;
+      width: 640px;
+      height: 50px;
+      border-collapse: collapse;
+      }
+  thead {background: lightgray;}
+  tbody tr {border-bottom: 4px  solid lightgray; width: 640px; }
+  tbody th {padding: 7px;}
+  table a {color: black;}
+  tfoot p {font-size:  12px; font-weight: bold;}
+  .write {background: #FFCD00; 
+          width: 60px; 
+          height: 40px; 
+          float: right;
+          border-radius: 6px 6px 6px 6px;}
+  .clickBox1, .clickBox2, .clickBox3, .clickBox4, .clickBox5, .clickBox6
+  {width: 40px; height: 40px;  display: inline-block; text-align: center; position: relative; top: 390px; left: 310px;}
+  .clickBox3{background: #FFCD00;  
+              border-radius: 6px 6px 6px 6px;
+              font-weight: bold;} 
+   /* write */
+   #write2 { width: 600px; height: 20px; margin-bottom: 5px; font-size: 15px; }
+   #write3 { width: 600px; height: 260px; margin-top: 5px; margin-bottom: 5px; font-size: 15px;}
+   #write4 {background: #FFCD00; 
+     width: 60px; 
+     height: 40px;
+     position: relative;
+     top: 400px; 
+     left: 400px;
+     border-radius: 6px 6px 6px 6px;}
+   #write5 {background: #FFCD00; 
+     width: 60px; 
+     height: 40px;
+     position: relative;
+     top: 400px; 
+     left: 400px;
+     margin-left: 15px; 
+     border-radius: 6px 6px 6px 6px;}
+     /* detail */
+     #list, #list2 {margin-left: 20px; 
+            margin-top: 7px;}
+     #th{font-size: 13px;}
+     /* gallery */
+     .gallery p {font-size: 16px; font-weight: bold;}
+     .gallery2 p {font-size: 16px; font-weight: bold;}
+     .img2, .img3, .img5, .img6 { margin-left: 80px;}
+     .img4, .img5, .img6{margin-top: 80px;}
+     .img1, .img2, .img3, .img4, .img5, .img6
+     {width: 137px; height: 137px; border: 1px solid black; display: inline-block; position: relative; top: 100px; left: 200px;}
+     .img1 {background: url(image/raccoon-3587033_1920.jpg);
+             background-size: 100% 100% ;}
+     .img2 {background: url(image/KakaoTalk_20210817_235153853.jpg);
+             background-size: 100% 100%;}
+     .img3 {background: url(image/cat-3535399_1920.jpg);
+             background-size: 100% 100%;}   
+     .img4 {background: url(image/KakaoTalk_20210818_000134913.jpg);
+             background-size: 100% 100%;}   
+     .img5 {background: url(image/KakaoTalk_20210818_000205545.jpg);
+             background-size: 100% 100%;
+             }   
+     .img6 {background: url(image/baby-bunny-387758_1920.jpg);
+             background-size: 100% 100%;
+             text-align: end;}
+     .img1 p {position: absolute; top: 130px; left: 30px;}
+     .img2 p {position: absolute; top: 130px; left: 5px;}
+     .img3 p {position: absolute; top: 130px; left: 20px;} 
+     .img4 p {position: absolute; top: 130px; left: 20px;} 
+     .img5 p {position: absolute; top: 130px; left: 15px;}
+     .img6 p {position: absolute; top: 130px; left: 30px;}
+     .clickBoxG1, .clickBoxG2, .clickBoxG3, .clickBoxG4, .clickBoxG5, .clickBoxG6
+     {width: 40px; height: 40px;  display: inline-block; text-align: center; position: relative; top: 150px; left: 355px;}
+     .clickBoxG3{background: #FFCD00;  
+                 border-radius: 6px 6px 6px 6px;
+                 font-weight: bold;}   
+
